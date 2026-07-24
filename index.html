@@ -6,6 +6,45 @@
     <title>Gerenciador de Tarefas</title>
 </head>
 <body>
-    
+    <main id="geral">
+        <div id="titulo">
+            <h3>Gerenciador de Tarefas</h3>
+        </div>
+
+        <section id="section-form">
+            <form id="form-tarefa">
+                <input type="text" id="tarefa-input" class="data-form" placeholder="Tarefa">
+
+                <input type="text" id="responsavel-input" class="data-form" placeholder="Responsável">
+
+                <input type="text" id="descricao-input" class="data-form" placeholder="Descrição">
+
+                <label for="prioridade-input" class="data-form">Prioridade</label>
+                <input type="radio" name="prioridade-input" id="prioridade-input" value="b">
+                <input type="radio" name="prioridade-input" id="prioridade-input" value="m">
+                <input type="radio" name="prioridade-input" id="prioridade-input" value="a">
+
+                <label for="data-input" class="data-form">Data Tarefa</label>
+                <input type="date" name="data-input" id="data-input">
+
+                <button type="submit" id="btn-add" class="data-form">Adicionar Tarefa</button>
+            </form>
+        </section>
+
+        <section id="cards-tarefas">
+
+            <h1 id="cont-baixa" class="cont-prioridade">Baixa 1</h1>
+            <h1 id="cont-media" class="cont-prioridade">Média 1</h1>
+            <h1 id="cont-alta" class="cont-prioridade">Alta 1</h1>
+
+            <div id="card">
+                <h3>Viagem de Curso</h3>
+                <h4>João Fonseca</h4>
+                <h4>Viagem de curso para TI</h4>
+            </div>
+
+        </section>
+
+    </main>
 </body>
 </html>
