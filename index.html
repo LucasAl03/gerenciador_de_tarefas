@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerenciador de Tarefas</title>
+
+    <link rel="stylesheet" href="./css/style_estrutura.css">
 </head>
 <body>
     <main id="geral">
@@ -12,22 +14,22 @@
         </div>
 
         <section id="section-form">
-            <form id="form-tarefa">
+            <form id="formulario">
                 <input type="text" id="tarefa-input" class="data-form" placeholder="Tarefa">
 
                 <input type="text" id="responsavel-input" class="data-form" placeholder="Responsável">
 
                 <input type="text" id="descricao-input" class="data-form" placeholder="Descrição">
 
-                <label for="prioridade-input" class="data-form">Prioridade</label>
-                <input type="radio" name="prioridade-input" id="prioridade-input" value="b">
-                <input type="radio" name="prioridade-input" id="prioridade-input" value="m">
-                <input type="radio" name="prioridade-input" id="prioridade-input" value="a">
+                <br><label for="prioridade-input" class="data-form">Prioridade:</label><br>
+                Baixa<input type="radio" name="prioridade-input" id="prioridade-input" value="b">
+                Média<input type="radio" name="prioridade-input" id="prioridade-input" value="m">
+                Alta<input type="radio" name="prioridade-input" id="prioridade-input" value="a">
 
-                <label for="data-input" class="data-form">Data Tarefa</label>
+                <br><label for="data-input" class="data-form">Data Tarefa</label>
                 <input type="date" name="data-input" id="data-input">
 
-                <button type="submit" id="btn-add" class="data-form">Adicionar Tarefa</button>
+                <br><button type="submit" id="btn-add" class="data-form">Adicionar Tarefa</button>
             </form>
         </section>
 
