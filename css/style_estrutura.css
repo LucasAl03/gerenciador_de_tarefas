@@ -8,12 +8,12 @@
 }
 
 :root{
-    --cor-fundo: #f8fafc;
+    --azul: #052945;
+    --cinza: #f7f6f5;
     --branco: #ffffff;
-    --botao1: #1d4ed8;
-    --botao2: #f4610c;
-    --cor1: #bfc966;
-    --cor2: #F59e0b;
+    --verde: #4caf50;
+    --amarelo: #ffc107;
+    --vermelho: #f44336;
 }
 
 body{
@@ -31,7 +31,7 @@ h3{
     min-height: 600px;
     margin: 20px auto;
     padding: 20px;
-    background-color: var(--cor1);
+    background-color: var(--azul);
     border-radius: 8px;
 }
 
